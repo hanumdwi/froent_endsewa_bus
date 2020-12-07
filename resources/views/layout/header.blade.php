@@ -39,12 +39,12 @@ $nav_profil           = $myproduk->nav_profil();
               </ul>
             </li>
            
-            <li class="drop-down"><a href="{{ asset('login') }}">Login</a>
+            <!-- <li class="drop-down"><a href="{{ asset('login') }}">Login</a>
               <ul>
                 <li><a href="{{ asset('login') }}">Login Member</a></li>
                 <li><a href="{{ asset('registrasi') }}">Registrasi Member</a></li>
               </ul>
-            </li>
+            </li> -->
             <li class="drop-down"><a href="#">Testimoni</a>
               <ul>
                 

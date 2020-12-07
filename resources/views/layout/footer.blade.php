@@ -78,8 +78,8 @@ $site       = DB::table('konfigurasi')->first();
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('/') }}">Beranda</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('produk') }}">Lihat Produk</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('pemesanan') }}">Pemesanan Produk</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('pembayaran') }}">Cara Pembayaran</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('pemesanan') }}">Pemesanan Armada/Paket Wisata</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('pembayaran') }}">Cara Booking</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ asset('kontak') }}">Kontak</a></li>
             </ul>
           </div>
@@ -106,7 +106,7 @@ $site       = DB::table('konfigurasi')->first();
         &copy; Copyright <strong><span><?php echo $site->namaweb ?></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Developed by <a href="https://javawebmedia.com/">Java Web Media</a>
+        Developed by <a href="https://pt-mdc-trans.business.site/">PT. MDC Trans</a>
       </div>
     </div>
   </footer><!-- End Footer -->

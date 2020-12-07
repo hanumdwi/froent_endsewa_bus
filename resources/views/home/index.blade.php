@@ -51,7 +51,7 @@
             <img src="{{ asset('public/upload/image/'.$site->icon) }}" alt="{{ $site->namaweb }}" class="img img-fluid img-thumbnail">
           </div>
 
-          <div class="col-xl-8 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+          <div class="col-xl-8 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-6 px-lg-6" data-aos="fade-left">
             <h3>Selamat datang di {{ $site->namaweb }}</h3>
             <?php echo $site->tentang ?>
 
@@ -68,7 +68,7 @@
       
   <div class="container">
     <div class="col-xl-12 col-lg-12 col-md-12 text-center" data-aos="fade-up">
-          <h2>Produk <?php $site->namaweb ?></h2>
+          <h2>Armada <?php $site->namaweb ?></h2>
           <p><?php echo $site->deskripsi ?></p>
           <br><br>
     </div>
@@ -126,7 +126,7 @@
       <div class="container">
 
         <div class="section-title text-center" data-aos="fade-up">
-          <h2>Berita terbaru</h2>
+          <h2>Penawaran Paket Wisata terbaru</h2>
           <p><?php echo $site->namaweb ?></p>
         </div>
 
